@@ -1,0 +1,75 @@
+@media screen and (min-width: 1024px)
+{
+    #square{
+        display: flex;
+
+    }
+
+    .square1{
+        width: 33%; 
+        height: 100px;
+        background-color: red;
+    }
+
+    .square2{
+        width: 33%; 
+        height: 100px;
+        background-color: green;
+    }
+
+    .square3{
+        width: 33%; 
+        height: 100px;
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px)
+{
+    #square{
+        display: flex;
+
+    }
+    .square1{
+        width: 33%; 
+        height: 100px;
+        background-color: red;
+    }
+
+    .square2{
+        width: 33%; 
+        height: 100px;
+        background-color: green;
+    }
+
+    .square3{
+        width: 33%; 
+        height: 100px;
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px)
+{
+    #square{
+        display: flex;
+    }
+
+    .square1{
+        width: 33%; 
+        height: 100px;
+        background-color: red;
+    }
+
+    .square2{
+        width: 33%; 
+        height: 100px;
+        background-color: green;
+    }
+
+    .square3{
+        width: 33%; 
+        height: 100px;
+        background-color: orange;
+    }
+}
